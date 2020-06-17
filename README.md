@@ -184,9 +184,9 @@
 
 #
 
-### 담당페이지 : 마이페이지 , 검색기능 , 좋아요 기능
-#### MVC패턴을 기반으로 게시판의 기본적 데이터처리 기능인 Create, Read, Update, Delete 구성하여
-####  SNS 방식의 게시글 작성, 출력, 수정, 삭제로 기능을 구현
+### 담당페이지 : 마이페이지 , 검색기능 
+#### SNS 방식의 스타일로 젊은 사람들에게 친근하게 다가갈 수 있으며 ,
+#### 너랑나랑 게시판으로 함께 여행할 친구를 구할 수 있습니다.
 
 #
 
@@ -196,7 +196,6 @@
 #
 ![11](https://user-images.githubusercontent.com/58212906/84873077-a9111d00-b0bd-11ea-9c6d-59b7fd05ef2f.jpg)
 
-#
 
 ![12](https://user-images.githubusercontent.com/58212906/84873114-b928fc80-b0bd-11ea-9c3b-984d6901bc34.jpg)
 
@@ -205,6 +204,20 @@
 
 #
 
+![13](https://user-images.githubusercontent.com/58212906/84873440-36547180-b0be-11ea-9b6d-12849a6f2535.jpg)
+
+![14](https://user-images.githubusercontent.com/58212906/84873551-5f750200-b0be-11ea-8bb0-c2a625beb0b9.jpg)
+
+- 검색기능(닉네임 or 태그)을 통하여 원하는 나라의 게시글이나 상대방의 마이페이지로 들어갈 수 있습니다.
+
+![15](https://user-images.githubusercontent.com/58212906/84873555-613ec580-b0be-11ea-8e0b-cac1c3588c29.jpg)
+
+![16](https://user-images.githubusercontent.com/58212906/84873557-626ff280-b0be-11ea-9047-aa9eeddb2821.jpg)
+
+![17](https://user-images.githubusercontent.com/58212906/84873560-64d24c80-b0be-11ea-847d-1eb80315bddd.jpg)
+
+
+- 또한 상대방의 마이페이지로 이동하여 팔로우 및 언팔로우 , 상대방의 게시글들을 볼 수 있습니다.
 
 
 
