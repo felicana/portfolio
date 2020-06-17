@@ -57,9 +57,6 @@
  - 최신 패치노트 , 현재 라인별로 1티어부터 2티어까지 나누어 롤의 추세를 빠르게 확인 가능합니다.
  
 ###
-### "듀오찾기 게시판"은 게시글 삭제가 필요 없습니다.
-- 한사람이 짧은시간에 여러 게시물을 올릴 수 있기때문에 불필요한 중복을 처리해야 했습니다.
-- 하지만 시각적 표현이 필요하여 취소선으로 대체되었습니다.
 
 #
 
@@ -68,7 +65,8 @@
 ### Jquery를 사용하여 라인별 챔피언 , 통계를 구현하였습니다.
 ![3](https://user-images.githubusercontent.com/58212906/84868171-3dc44c80-b0b7-11ea-871f-b1886a901d78.jpg)
 #
-![2](https://user-images.githubusercontent.com/58212906/84867724-9a733780-b0b6-11ea-9aa8-c16f91d5e42d.jpg)
+![2](https://user-images.githubusercontent.com/58212906/84870365-30f52800-b0ba-11ea-8364-675cb26b887c.jpg)
+
 
 
 
@@ -87,8 +85,10 @@
 ##
 # 소환사 전적 페이지
 
-![4](https://user-images.githubusercontent.com/58212906/84869347-deffd280-b0b8-11ea-8ee7-80d211f64085.jpg)
+![4](https://user-images.githubusercontent.com/58212906/84870409-423e3480-b0ba-11ea-89bd-57a75ef1e037.jpg)
+
 #
+
 ![5](https://user-images.githubusercontent.com/58212906/84870028-bdebb180-b0b9-11ea-91dc-c6c9265aed00.jpg)
 
 
