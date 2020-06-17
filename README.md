@@ -66,37 +66,31 @@
 #
 
 ### Jquery를 사용하여 라인별 챔피언 , 통계를 구현하였습니다.
-![1](https://user-images.githubusercontent.com/58212906/84867685-87606780-b0b6-11ea-95f3-e4a2215db48d.jpg)
+![3](https://user-images.githubusercontent.com/58212906/84868171-3dc44c80-b0b7-11ea-871f-b1886a901d78.jpg)
+#
 ![2](https://user-images.githubusercontent.com/58212906/84867724-9a733780-b0b6-11ea-9aa8-c16f91d5e42d.jpg)
 
 
 
 
-## 게시글 작성 시연입니다.
+## 공략 페이지 시연입니다.
 
-![게시글작성](https://user-images.githubusercontent.com/53084458/82656301-7c085080-9c5e-11ea-9ac4-e07c08394f8c.gif)
+![ezgif com-video-to-gif](https://user-images.githubusercontent.com/58212906/84868652-fee2c680-b0b7-11ea-9b03-a9b4bee1d187.gif)
 
 
 
-### 제목은 자동으로 매핑됩니다.
-- 줄임말로 인해 뜻은 같지만 낱말이 다른 단어가 많습니다. ex)서폿 == 서포터
-- 제목을 일정한 패턴으로 통일시켜 이를 검색에 활용하였습니다.
+
+### 패치노트는 라이엇 홈페이지로 이동합니다.
+- 라이엇 홈페이지 패치노트 페이지로 이동을 하여 보다 자세히 볼 수 있습니다.
 
 
 ##
-# 검색
+# 소환사 전적 페이지
 
-<img width="483" alt="동적쿼리검색용첨부" src="https://user-images.githubusercontent.com/53084458/82661302-b8d84580-9c66-11ea-932c-8488274b257a.png">
+![4](https://user-images.githubusercontent.com/58212906/84869347-deffd280-b0b8-11ea-8ee7-80d211f64085.jpg)
+#
+![5](https://user-images.githubusercontent.com/58212906/84870028-bdebb180-b0b9-11ea-91dc-c6c9265aed00.jpg)
 
-- 사용자가 검색 액션을 하게되면 동작하는 쿼리입니다.
-
-
-## 검색 시연입니다.
-
-![검색시연자료](https://user-images.githubusercontent.com/53084458/82661296-b675eb80-9c66-11ea-93b4-38f2cc7ce0ee.gif)
-
-### 사용자가 select로 조건을 맞춰가며 검색합니다.
-- 일정한 패턴의 제목은 여러번 검색할 필요가 없습니다. 3가지 조건만으로 양질의 결괏값을 반환합니다.
 
 
 #
