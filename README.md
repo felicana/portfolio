@@ -67,6 +67,7 @@
 
 ### Jquery를 사용하여 라인별 챔피언 , 통계를 구현하였습니다.
 ![1](https://user-images.githubusercontent.com/58212906/84867685-87606780-b0b6-11ea-95f3-e4a2215db48d.jpg)
+![2](https://user-images.githubusercontent.com/58212906/84867724-9a733780-b0b6-11ea-9aa8-c16f91d5e42d.jpg)
 
 
 
