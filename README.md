@@ -94,11 +94,6 @@
 
 
 #
-## 2. 챔피언 통계 페이지입니다.
-### - gson 라이브러리로 json파싱
-### - 저장된 데이터는 테이블JOIN 및 Group 통계수치화 가공
-### - Jquery의 Data Table Library를 활용하여 틀을 만들고 CSS로 그래프를 표현 출력합니다.
-#
 
 ## Riot(Rest) API 파싱하기
 
@@ -121,33 +116,6 @@
 
 #
 
-## 통계를 수치화 하기 위한 쿼리입니다.
-
-<img width="672" alt="통계테이블쿼리문" src="https://user-images.githubusercontent.com/53084458/82663570-e0311180-9c6a-11ea-85b0-777ffe50beb7.png">
-
-#### 처음에는 카테시안 곱 발생, GROUP조건, JOIN에서 많은 문제가 있었지만 각 COLUMN별로 다시 정리해가며
-#### 알맞은 테이블 JOIN과 GROUP찾아 카테시안 곱을 해결할 수 있었고 챔피언별 통계 구조의 다중서브쿼리를 완성할 수 있었습니다.
-
-
-#
-
-## 가공된(수치화) 통계자료를 시각적으로 표현
-
-
-![종합통계프론트](https://user-images.githubusercontent.com/53084458/82924574-7ccf1880-9fb7-11ea-8a54-bd12e337cc65.jpg)
-
-- 빨간줄:그래프의 길이를 나타냅니다.
-- 파란줄:그래프의 색상을 나타냅니다.
-- 녹색줄:통계수치를 보여줍니다.
-### 결과:실제 수치화 된 데이터를 기준으로 그래프 길이가 변동됩니다.
-
-#
-
-## 통계테이블 최종 출력
-
-![데이터테이블시연자료](https://user-images.githubusercontent.com/53084458/82663564-dd362100-9c6a-11ea-86bf-de71cff8c732.gif)
-
-- 챔피언(사진) 클릭시 팀원이 구현한 챔피언 상세정보 페이지로 이동합니다.
 
 #
 
@@ -216,9 +184,9 @@
 
 #
 
-### 담당페이지 : 너랑나랑
+### 담당페이지 : 마이페이지 , 검색기능 , 좋아요 기능
 #### MVC패턴을 기반으로 게시판의 기본적 데이터처리 기능인 Create, Read, Update, Delete 구성하여
-#### 게시글 작성, 출력, 수정, 삭제로 기능을 구현
+####  SNS 방식의 게시글 작성, 출력, 수정, 삭제로 기능을 구현
 
 #
 
@@ -226,79 +194,14 @@
 
 
 #
-
-
-### 먼저 정보를 입력해 등록 액션을 하게되면
-### 해당 서블렛에서 정보를 받아 Service를 거쳐 DAO에서 DATA를 처리하게됩니다.
-![RangInsertCont](https://user-images.githubusercontent.com/53084458/82750204-712df700-9de9-11ea-8e8a-e08ff88a3c00.jpg)
+![11](https://user-images.githubusercontent.com/58212906/84873077-a9111d00-b0bd-11ea-9c6d-59b7fd05ef2f.jpg)
 
 #
 
-### 정보를 받은 DAO는 JDBC를 이용하여 DB까지 올바르게 정보를 가공 처리합니다.
-![RangInsertSQL](https://user-images.githubusercontent.com/53084458/82750209-74c17e00-9de9-11ea-8f02-825947d2fb85.jpg)
+![12](https://user-images.githubusercontent.com/58212906/84873114-b928fc80-b0bd-11ea-9c3b-984d6901bc34.jpg)
 
-#
-
-### 이렇게 처리된 DATA는 사용자 요청에 따라 oracle DB의 정보를 입력하게 되고
-### 처리된 DATA를 기반으로 다시 View에 출력합니다.
-#
-## 게시글 작성 시연입니다.
-
-#
-
-![게시글작성](https://user-images.githubusercontent.com/53084458/82644602-8c173480-9c4c-11ea-9a10-03ad688e6022.gif)
-### - 기능을 구현하면서 MVC패턴에 대해 깊이 이해할 수 있었습니다.
-#
-
-
-#
-
-#### 참여하기 기능에서 실제 버튼을 눌렀는지, 누르지 않았는지를 실제 DATA로 비교하여
-#### 데이터 무결성을 구현하고자 했습니다.
-
-![참여하기기능](https://user-images.githubusercontent.com/53084458/82725522-71aa8d00-9d18-11ea-9d9e-8f66cdae1cf1.jpg)
-#
-
-#### 1.사용자가 직접 버튼을 클릭하게 되면 해당 번호를 가진 게시물은 DB에 값이 저장되게 됩니다.
-<img width="310" alt="참여하기코드1" src="https://user-images.githubusercontent.com/53084458/82725525-72dbba00-9d18-11ea-884b-f6e26980dc96.png">
-
-#### 2.저장된 값이 COUNT되어 "참여하기" 버튼을 누른 인원을 표시하게 됩니다.
-
-<img width="340" alt="참여하기코드2" src="https://user-images.githubusercontent.com/53084458/82725526-740ce700-9d18-11ea-88e6-f42a8e8de889.png">
-
-#### 3.데이터 무결성을 구현하여 중복클릭을 방지했습니다. 
-
-
-
-<img width="411" alt="참여하기코드3" src="https://user-images.githubusercontent.com/53084458/82725521-6f483300-9d18-11ea-84a5-49603bc33c54.png">
-
-#### 참여하기 버튼의 경우 해당 게시물 번호와 유저의 번호(클릭이 아닌경우:0, 클릭한 경우:1)를 비교하여
-
-#### 클릭 여부를 판단해 활성화 or 비활성화를 하게 됩니다.
-
-#
-
-## 게시글 수정
-
-![RangUpdate](https://user-images.githubusercontent.com/53084458/82750214-78ed9b80-9de9-11ea-9a7e-debe799ac6fb.jpg)
-
-### - UPDATE된 객체는 Service->DAO로 전달됩니다.
-
-#
-### DAO코드입니다.
-#
-
-![RangUpdateDAO](https://user-images.githubusercontent.com/53084458/82750216-7b4ff580-9de9-11ea-9e06-f35a34d2fda5.jpg)
-
-### - 전달받은 객체는 prepareStatement로 sql을 실행 DB DATA를 수정합니다.
-
-- properties를 활용하여 JAVA코드와 SQL코드를 별도관리 하였습니다.
-
-#
-
-## 수정, 삭제 시연입니다.
-
-![게시글수정삭제](https://user-images.githubusercontent.com/53084458/82644845-f62fd980-9c4c-11ea-80bd-0bc262bca87e.gif)
+- 마이페이지는 크게 자기 자신, 상대방 마이페이지로 구성되어 있습니다.
+- 회원의 정보 수정 및 자신의 팔로우, 팔로워, 게시글 수 , 목록 등을 확인할 수 있습니다.
 
 #
 
