@@ -188,7 +188,6 @@
 
 #
 
-### 너랑나랑 페이지는 함께 여행할 동료, 친구를 찾는 공간입니다.
 
 
 ![11](https://user-images.githubusercontent.com/58212906/84873077-a9111d00-b0bd-11ea-9c6d-59b7fd05ef2f.jpg)
